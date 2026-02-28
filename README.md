@@ -7,31 +7,6 @@ Este projeto foi desenvolvido numa atividade organizada pelos **Google Developer
 
 ---
 
-## Índice
-
-- [Descrição do Jogo](#descrição-do-jogo)
-- [Requisitos](#requisitos)
-- [Como Executar](#como-executar)
-- [Mecânicas de Jogo](#mecânicas-de-jogo)
-  - [Mapa e Tiles](#mapa-e-tiles)
-  - [Jogadores](#jogadores)
-  - [NPCs](#npcs)
-  - [Itens e Efeitos](#itens-e-efeitos)
-  - [Quests e Enigmas](#quests-e-enigmas)
-  - [Salas de Tesouro](#salas-de-tesouro)
-- [Implementação Técnica](#implementação-técnica)
-  - [Networking e Modelos de Dados](#networking-e-modelos-de-dados)
-  - [Estado com Riverpod](#estado-com-riverpod)
-  - [FlameGame, Worlds e Câmara](#flamegame-worlds-e-câmara)
-  - [Componentes Principais do Jogo](#componentes-principais-do-jogo)
-  - [UI e Overlays em Flutter](#ui-e-overlays-em-flutter)
-- [Protocolo de Comunicação com o Servidor](#protocolo-de-comunicação-com-o-servidor)
-- [O que Aprendi a Construir este Jogo](#o-que-aprendi-a-construir-este-jogo)
-- [Recursos e Links Úteis](#recursos-e-links-úteis)
-- [Licença](#licença)
-
----
-
 ## Descrição do Jogo
 
 Quest Arena é um jogo de **aventura multiplayer em grelha 20x20**, em tempo real, onde equipas competem e colaboram para:
